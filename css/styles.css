@@ -1,0 +1,248 @@
+
+body{
+    font-family: Gilroy, sans-serif;
+    }
+    
+    #sidebar-wrapper {
+        background: #ffffff;
+        color: #979AA5;
+        border-right: 1px solid #EFF2F7;
+    }
+    
+    #sidebar-wrapper .sidebar-logo img {
+        padding: 30px 0 70px 30px;
+    }
+    
+    #sidebar-wrapper .list-menu {
+        margin-top: 0px;
+        color: #979AA5;
+    }
+    
+    #sidebar-wrapper .list-menu p {
+        width: 100%;
+        padding: 20px;
+        font-size: 14px;
+        margin: 0px;
+        cursor: pointer;
+    }
+    
+    #sidebar-wrapper .list-menu p:hover {
+        background-color: #FFEEA7;
+        border-radius: 10px;
+    }
+    
+    #sidebar-wrapper .list-menu p .icon-img {
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -8px;
+    }
+    
+    #sidebar-wrapper .list-menu p .arrow {
+        width: 20px;
+        height: 20px;
+    }
+    
+    #sidebar-wrapper .list-menu p a {
+        text-decoration: none;
+        color: #979AA5;
+    }
+    .active {
+        background-color: #FFEEA7;
+        color: #979AA5;
+        border-radius: 10px;
+    }
+    
+    /* dashboard styling */
+    #page-content-wrapper .btn {
+        display: none;
+    }
+    #page-content-wrapper .avi{
+        display: none;
+    }
+    #page-content-wrapper .wrapper {
+        padding: 20px 30px 5px 30px;
+        min-height: 100vh;
+        font-family: gilroy, sans-serif;
+        font: Gilroy;
+    }
+
+    #page-content-wrapper .wrapper .wallet {
+        border-right: 2px solid #EFF2F7;
+        padding-right: 30px;
+
+    }
+    #page-content-wrapper .wrapper .wellet {
+        font-size: 32px;
+        font-weight: 400;
+    }
+    #page-content-wrapper .wrapper .request {
+        padding: 50px;
+        border-right: 19px solid white;
+        border: 1px solid #EFF2F7;
+        border-radius: 20px;
+    }
+    #page-content-wrapper .wrapper .requestt {
+        padding: 40px;
+        border: 1px solid #EFF2F7;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 2px #EFF2F7;
+        color: #388379;
+    }
+
+    #page-content-wrapper .wrapper .request p {
+       font-size: 20px;
+       margin-top: -15px;
+       padding-top: 20px;
+    }
+    #page-content-wrapper .wrapper .activity{
+        border: 1px solid #EFF2F7;
+        border-radius: 10px;
+    }
+    #page-content-wrapper .wrapper .recent{
+        display: flex;
+        justify-content: space-between;
+    }
+    #page-content-wrapper .wrapper .recenta{ 
+        /* margin-left: 600px; */
+        background: #F9FAFC;
+        border: 10px;
+        display: flex;
+        width: fit-content;
+    }
+    #page-content-wrapper .wrapper .recenta img{ 
+        padding: 10px;
+    }
+    #page-content-wrapper .wrapper .recenta p{ 
+        padding-top: 12px;
+    }
+    #page-content-wrapper .avi{
+        text-align: right;
+        background-color: #F9FAFC;
+        padding: 20px;
+    }
+    #page-content-wrapper .avii img{
+        padding: 10px;
+    }
+    #page-content-wrapper .avi{
+        text-align: right;
+        background-color: #F9FAFC;
+        padding: 20px;
+    }
+    #page-content-wrapper .avii img{
+        padding: 10px;
+    }
+    #page-content-wrapper .overlay-content{
+        border: 1px solid #EFF2F7;
+        margin: 20px 5px 0 5px;
+        border-radius: 10px;
+    }
+    #page-content-wrapper .overlay-content .t{
+        background-color: #EFF2F7;
+        padding: 50px 100px 50px 40px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    #page-content-wrapper .overlay-content .d{
+        padding: 50px;
+        font-size: 20px;
+        color: #388379;
+    }
+    #page-content-wrapper .overlay-content .requestt {
+        padding: 40px;
+        border: 1px solid #EFF2F7;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 2px #EFF2F7;
+        color: #388379;
+    }
+    #page-content-wrapper .overlay-content .requestta {
+        padding: 40px;
+        border: 1px solid #EFF2F7;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 2px #EFF2F7;
+        color: #388379;
+        background: #DEF5F2;
+
+    }
+    #page-content-wrapper .overlay-content .requestt p{
+        font-size: 20px;
+        margin-top: -15px;
+        padding-top: 20px;
+    }
+
+    #dashboard-menu .transfer{
+       margin: 20px 5px 0 5px;
+       /* padding: 20px; */
+       border-radius: 10px;
+       border: 1px solid #EFF2F7;
+    }
+    #dashboard-menu .t{
+        background-color: #EFF2F7;
+        padding: 50px 90px 50px 40px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    #dashboard-menu .d{
+        padding: 50px;
+        font-size: 20px;
+        color: #388379;
+    }
+    #dashboard-menu .requestt {
+        padding: 40px;
+        border: 1px solid #EFF2F7;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 2px #EFF2F7;
+        color: #388379;
+    }
+    #dashboard-menu .requestta {
+        padding: 40px;
+        border: 1px solid #EFF2F7;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 2px #EFF2F7;
+        color: #388379;
+        background: #DEF5F2;
+
+    }
+    #dashboard-menu .requestt p{
+        font-size: 20px;
+        margin-top: -15px;
+        padding-top: 20px;
+    }
+    #dashboard-menu .avi{
+        text-align: right;
+        background-color: #F9FAFC;
+        padding: 20px;
+    }
+    #dashboard-menu .avii img{
+        padding: 10px;
+    }
+    #dashbaord-menu .avi{
+        text-align: right;
+        background-color: #F9FAFC;
+        padding: 20px;
+    }
+    #dashboard-menu .avii img{
+        padding: 10px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        #dashboard-menu {
+            display: none;
+        }
+        #page-content-wrapper .wrapper .recenta{ 
+            margin-left: 60px;
+        }
+        #page-content-wrapper .wrapper .recent p{ 
+            font-size: 10px;
+        }
+        #page-content-wrapper .avi{
+            display: block;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        #page-content-wrapper .btn {
+            display: block;
+        }
+    }
+    

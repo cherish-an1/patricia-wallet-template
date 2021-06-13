@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link href="https://fonts.google.com/specimen/Gilda+Display?preview.size=32&query=gil#standard-styles" rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="./css/sidebar.css">
+<title>Patricia-Wallet-template</title>
+</head>
+<body>
+
+
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar -->
+        <div class="" id="sidebar-wrapper">
+            <div class="sidebar-heading sidebar-logo">
+                <img alt="image" src="./assest/patricia-logo.png"/>
+            </div>
+            <div class="list-group list-group-flush list-menu ">
+                <p class="p-dash">
+                    <img class="icon-img " src="./assest/dashboard.svg" alt="">
+                    <a href="#" class="ml-3">Dashboard</a>
+                </p>
+                <p>
+                    <img class="icon-img" src="./assest/Activity.svg" alt="">
+                    <a href="#" class="ml-3">Activity</a>
+                </p>
+                <p class="active">
+                    <img class="icon-img" src="./assest/Wallet.svg" alt="">
+                    <a href="#" class="ml-3">Wallet</a>
+                </p>
+                <p>
+                    <img class="icon-img" src="./assest/product.svg" alt="">
+                    <a href="#" class="ml-3">Product</a>
+                </p>
+                <p>
+                    <img class="icon-img" src="./assest/Wallet.svg" alt="">
+                    <a href="#" class="ml-3">Referrals</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
+                <img id="menu-toggle" class="btn" src="./assest/bars.svg" alt="">
+                <div class="avi text-right">
+                    <div class="avii">
+                        <img src="./assest/notification.svg" alt="">
+                        <img src="./assest/avatar.png" alt="">
+                        <img data-toggle="modal" data-target="#exampleModal" src="./assest/dot.svg" alt="">
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 style="color: black; font-size: 14px;" class="modal-title" id="exampleModalLabel"></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="profile-details">
+                                    <div class="body">
+                                        <div class="overlay-content">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <p class="d">Deposit</p>
+                                                </div>
+                                                <div class="col-6">
+                                                    <p class="t">Transfer</p>
+                                                </div>
+                                            </div>
+                                            <div class="text-center p-3">
+                                                <h5>Select a method to Fund Naira wallet below</h5>
+                                            </div>
+                                            <div class="p-4">
+                                                <div class="requestt mt-4 pl-3 pr-5">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <img src="./assest/Bank.svg" alt="">
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <p>Bank Deposit</p>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <img class="pt-2" src="./assest/Vector.svg" alt="" width="100%">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="requestt mt-4 pl-3 pr-5">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <img src="./assest/Mobile-phone button.svg" alt="">
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <p>USSD Deposit</p>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <img class="pt-2" src="./assest/arrow.svg" alt="" width="100%">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="requestt mt-4 pl-3 pr-5">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <img src="./assest/card.svg" alt="">
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <p>Card Deposit</p>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <img class="pt-2" src="./assest/arrow.svg" alt="" width="100%">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="requestta mt-4 pl-3 pr-5">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <img src="./assest/cap.svg" alt="">
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <p>Learn More about Funding your wallet</p>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <img class="pt-2" src="./assest/arrow.svg" alt="" width="100%">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav> 
+            <!-- wrapper -->
+            <div class="wrapper">
+               <div class="">
+                   <div class=" wallet">
+                        <div class="pt-3">
+                            <p class="pb-3 wellet ">Wallet</p>
+                            <div class="" style="display: flex;">
+                                <div class="" style="padding-right: 20px;">
+                                    <img src="./assest/naira-logo.svg" alt="">
+                                </div>
+                                <div class="pb-4" style="line-height: 5px;">
+                                    <h5>Naira Wallet</h5>
+                                        <small>Lorem ipsum dolor sit amet</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wallet-img pt-3">
+                            <img src="./assest/dashboard-img.png" alt="" width="100%">
+                        </div>
+
+                        <div class="row p-3">
+                            <div class="col-md-5 request mt-4 pl-3 r-5">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="./assest/Request.svg" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <p>Request Money</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="pt-2" src="./assest/arrow.svg" alt="" width="30%">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+
+                            </div>
+                            <div class="col-md-5 requestt mt-4 pl-3 pr-5">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="./assest/Cardless Withdrawal.svg" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <p>Cardless Withdrawal</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="pt-2" src="./assest/Vector.svg" alt="" width="30%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" mt-5 pt-5 pl-3 activity">
+                            <div class="recent pb-5">
+                                <p class="pl-2">Recent Activity</p>
+                                <div class="">
+                                    <button style="display: flex; border: 1px solid #eee;">
+                                       <img class="p-1" src="./assest/Calendar.svg" alt="">
+                                       <p>Start Date: 01/02/21</p>
+                                       <img class="pr-1" src="./assest/arrow-down.svg" alt="" >
+                                    </button>
+                                    <!-- <img src="./assest/Calendar.svg" alt="" width="40%">
+                                    <p>Start Date: 01/02/21</p>
+                                    <img src="./assest/arrow-down.svg" alt="" width="40%"> -->
+                                </div>
+                            </div>
+
+                            <div class="scrollbar2 scrollbar-primary" style="overflow-x:auto;">
+
+                                <table class="table table-borderless table-hover">
+                                    <thead class="thead">
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img class="profile-pic" src="./assest/naira-svg.svg" alt="">
+                                            </td>
+                                            <td><p><b>Self Withdrawal</b></p></td>
+                                            <td><p>0.003btc</p></td>
+                                            <td><p>Just now</p></td>
+                                            <td><p class="text-success"><b>Success</b></p></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img class="profile-pic" src="./assest/naira-svg.svg" alt="">
+                                            </td>
+                                            <td><p><b>Deposit</b></h5></td>
+                                            <td><p>0.003btc</p></td>
+                                            <td><p>Today</p></td>
+                                            <td><p class="text-danger"><b>Failed</b></p></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img class="profile-pic" src="./assest/naira-svg.svg" alt="">
+                                            </td>
+                                            <td><p><b>Transfer</b></p></td>
+                                            <td><p>0.003btc</p></td>
+                                            <td><p>7:23 am</p></td>
+                                            <td><p class="text-warning"><b>Pending</b></p></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img class="profile-pic" src="./assest/naira-svg.svg" alt="">
+                                            </td>
+                                            <td><p><b>Deposit</b></p></td>
+                                            <td><p>0.003btc</p></td>
+                                            <td><p>Yesterday</p></td>
+                                            <td><p class="text-success"><b>Success</b></p></td>
+                                        </tr>  
+                                    </tbody>
+                                </table>
+                
+                            </div>
+                        </div>
+                        
+                   </div>
+               </div>
+            </div>
+        </div> 
+
+        <!-- dashboard -->
+        <div id="dashboard-menu" class="">
+            <div class=""> 
+                <div class="avi">
+                    <div class="avii">
+                        <img src="./assest/notification.svg" alt="">
+                        <img src="./assest/avatar.png" alt="">
+                        <img src="./assest/dot.svg" alt="">
+                    </div>
+                </div>
+                <div class="transfer">
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="d">Deposit</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="t">Transfer</p>
+                        </div>
+                    </div>
+                    <div class="text-center px- py-5 mx-5">
+                        <h5>Select a method to Fund Naira wallet below</h5>
+                    </div>
+                    <div class="p-2">
+                        <div class="requestt mt-4 pl-3 pr-5">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="./assest/Bank.svg" alt="">
+                                </div>
+                                <div class="col-8">
+                                    <p>Bank Deposit</p>
+                                </div>
+                                <div class="col-2">
+                                    <img class="pt-2" src="./assest/Vector.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="requestt mt-4 pl-3 pr-5">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="./assest/Mobile-phone button.svg" alt="">
+                                </div>
+                                <div class="col-8">
+                                    <p>USSD Deposit</p>
+                                </div>
+                                <div class="col-2">
+                                    <img class="pt-2" src="./assest/arrow.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="requestt mt-4 pl-3 pr-5">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="./assest/card.svg" alt="">
+                                </div>
+                                <div class="col-8">
+                                    <p>Card Deposit</p>
+                                </div>
+                                <div class="col-2">
+                                    <img class="pt-2" src="./assest/arrow.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="requestta mt-4 pl-3 pr-5">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="./assest/cap.svg" alt="">
+                                </div>
+                                <div class="col-8">
+                                    <p>Learn More about Funding your wallet</p>
+                                </div>
+                                <div class="col-2">
+                                    <img class="pt-2" src="./assest/arrow.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+
+ <!-- Menu Toggle Script -->
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+</script>
+</body>
+</html>
